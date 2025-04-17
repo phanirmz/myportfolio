@@ -1,8 +1,7 @@
-/* Colores pastel y fuente estética */
 body {
   margin: 0;
   padding: 0;
-  background: #efdcdc; /* Fondo rosa claro */
+  background: #efdcdc; 
   font-family: 'Playfair Display', serif;
   color: #542f2f;
   text-align: center;
