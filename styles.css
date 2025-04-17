@@ -104,3 +104,43 @@ header {
   line-height: 1.5;
 }
 
+.gallery-section {
+  background-color: #eacdd5;
+  padding: 60px 20px;
+}
+
+.gallery-title {
+  font-size: 24px;
+  color: #542f2f;
+  margin-bottom: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.gallery-item {
+  width: 160px;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-item p {
+  font-size: 14px;
+  padding: 10px;
+  color: #542f2f;
+}
+
